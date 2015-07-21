@@ -23,10 +23,10 @@ BMI, short for Body Mass Index is a measure of a person's body fat based on thei
 The BMI score is computed using one of the formulas shown here. The units for height and weight in Imperial system are *inches* and *pounds*, while for Metric they are *meters* and *kilograms*.
 
 #### English System Formula
-$$bmi=(weight)/(height)^2 * 703$$
+$$ bmi=(weight)/(height)^2 * 703 $$
 
 #### Metric System Formula
-$$bmi=(weight)/(height)^2$$
+$$ bmi=(weight)/(height)^2 $$
 
 Grading BMI Scores
 ========================================================
