@@ -17,26 +17,16 @@ This is an application developed using shiny a web application framework for R. 
 What is BMI?
 ========================================================
 transition: rotate
-BMI, short for Body Mass Index is a measure of a person's body fat based on a persons weight in relation to their height. It is used as a screening tool used to grade a person by weight.
+BMI, short for Body Mass Index is a measure of a person's body fat based on their weight in relation to their height. It is used as a screening tool used to grade a person by weight.
 
 ### Formula For Computing BMI
-The BMI score is computed based on a person's height and weight. The english system uses height in *inches* and weight in *pounds*, while the metric system uses height in *meters* and weight in *kilograms*.
+The BMI score is computed using one of the formulas shown here. The units for height and weight in Imperial system are *inches* and *pounds*, while for Metric they are *meters* and *kilograms*.
 
 #### English System Formula
-$$
-\begin{aligned}
-bmi=(weight)/(height)^2 * 703
-\\
-\end{aligned}
-$$
+$$bmi=(weight)/(height)^2 * 703$$
 
 #### Metric System Formula
-$$
-\begin{aligned}
-bmi=(weight)/(height)^2
-\\
-\end{aligned}
-$$
+$$bmi=(weight)/(height)^2$$
 
 Grading BMI Scores
 ========================================================
