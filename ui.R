@@ -3,7 +3,7 @@ library(ggplot2)
 
 fluidPage(
   
-  titlePanel("Body Mass Classifiers"),
+  titlePanel("BMI Calculator & Weight Grader"),
   
   sidebarLayout(
     sidebarPanel(
@@ -42,8 +42,9 @@ fluidPage(
       uiOutput("weight"),
       h3("BMI Score:"),
       p(textOutput("bmi")),
-      h3("Weight Category:"),
+      h3("Weight Grade:"),
       uiOutput("catInfo"),
+      h4("Reference BMI Chart:"),
       uiOutput("graph")
     )
   ))

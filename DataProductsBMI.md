@@ -72,7 +72,6 @@ Running BMI Application & Presentation
 transition: rotate
 The BMI application computes the BMI score based on a person's height and weight. The application gives the user a choice of the measurment system to use *Metric* or *Imperial*. Once the BMI score is computed the application grades a persons weight based on a comparison chart described in the previous slide. You can click on one of the links below to get the presentation, run the shiny app or review the source at github.
 
-- [BMI Calculator & Grader Presentation](http://bhaskarpa.github.io/DataProducts/DataProductsBMI.html)
 - [BMI Calculator Shiny App](https://bap-data-products.shinyapps.io/DataProducts)
 - [Github Source Location](https://github.com/bhaskarpa/DataProducts)
 
